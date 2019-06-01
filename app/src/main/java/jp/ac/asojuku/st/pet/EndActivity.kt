@@ -26,7 +26,7 @@ class EndActivity : AppCompatActivity() {
             /*key1終了*/
             else ->{
                 pic.setImageResource(/*あとでがぞうあいでー*/)
-                text.setText("残念…"name+"燃えないゴミになってしまった…。")
+                text.setText("残念…"+name+"燃えないゴミになってしまった…。")
             }
             /*Kye2:GOMI*/
             /*key == 2->{/*keynomber1:洋服*/
