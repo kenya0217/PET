@@ -9,13 +9,13 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".ChoisePetActivity">
+        <activity android:name=".MainActivity">
         </activity>
-        <activity android:name=".ActActivity">
+        <activity android:name=".Act2Activity">
         </activity>
         <activity android:name=".EndActivity">
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".ChoisePetActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

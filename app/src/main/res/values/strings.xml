@@ -6,4 +6,5 @@
         <item>tintin</item>
     </string-array>
     <string name="shipment"/>
+    <string name="End">もう一度</string>
 </resources>
