@@ -22,9 +22,9 @@ public class MainActivity : AppCompatActivity() {
             //intent.getIntExtra("border",222)
             // ,intent.getStringExtra("name")
             //)
-        val button = findViewById(R.id.constraintLayout) as Button
+        // val constraintLayout = findViewById<Button>(R.id.constraintLayout) as Button
 
-        button.setOnClickListener {
+        asobi_button.setOnClickListener {
             if(i ==0) {
                 ListView.setVisibility(View.VISIBLE);
                 i++
@@ -33,12 +33,14 @@ public class MainActivity : AppCompatActivity() {
                 i=0
             }
         }
-        val items = arrayOf("振る","撫でる","散歩")
+        val items = arrayOf("振る","撫でる")
         val adapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, items)
         ListView.adapter = adapter
-//        ListView.setOnItemClickListener { adapterView, view, position, id ->
-//
-//        }
+        ListView.setOnClickListener {
+            //if(){
+
+            // }
+        }
         ListView.setVisibility(View.GONE);
     }
 
