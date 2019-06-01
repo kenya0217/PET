@@ -18,7 +18,7 @@
             android:layout_height="463dp" app:srcCompat="@color/colorAccent"
             tools:layout_editor_absoluteY="324dp" tools:layout_editor_absoluteX="40dp" android:id="@+id/pic"/>
     <Button
-            android:text="Button"
+            android:text="@string/End"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" tools:layout_editor_absoluteY="826dp"
             tools:layout_editor_absoluteX="242dp" android:id="@+id/endbtn" android:visibility="invisible"/>

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">PET</string>
     <string name="shipment"/>
+    <string name="End">もう一度</string>
 </resources>
