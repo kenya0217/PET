@@ -4,7 +4,6 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import kotlinx.android.synthetic.main.activity_end.*
-import kotlinx.android.synthetic.main.activity_choise_pet.*
 
 class EndActivity : AppCompatActivity() {
 
