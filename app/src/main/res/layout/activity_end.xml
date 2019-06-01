@@ -7,4 +7,19 @@
         android:layout_height="match_parent"
         tools:context=".EndActivity">
 
+    <TextView
+            android:text="出荷します"
+            android:layout_width="400dp"
+            android:layout_height="66dp" tools:layout_editor_absoluteY="113dp"
+            tools:layout_editor_absoluteX="100dp" android:id="@+id/text" android:textSize="36sp"
+            android:typeface="normal"/>
+    <ImageButton
+            android:layout_width="520dp"
+            android:layout_height="463dp" app:srcCompat="@color/colorAccent"
+            tools:layout_editor_absoluteY="324dp" tools:layout_editor_absoluteX="40dp" android:id="@+id/pic"/>
+    <Button
+            android:text="Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="826dp"
+            tools:layout_editor_absoluteX="242dp" android:id="@+id/endbtn" android:visibility="invisible"/>
 </android.support.constraint.ConstraintLayout>
