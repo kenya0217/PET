@@ -11,7 +11,7 @@
             android:theme="@style/AppTheme">
         <activity android:name=".ChoisePetActivity">
         </activity>
-        <activity android:name=".ActActivity">
+        <activity android:name=".Act2Activity">
         </activity>
         <activity android:name=".EndActivity">
         </activity>

@@ -8,7 +8,7 @@ import android.os.Bundle
 import android.util.Log
 
 
-class ActActivity : AppCompatActivity(), SensorEventListener {
+class Act2Activity : AppCompatActivity(), SensorEventListener {
     override fun onAccuracyChanged(p0: Sensor?, p1: Int) {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
