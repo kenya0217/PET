@@ -16,9 +16,11 @@ class ChoisePetActivity : AppCompatActivity() {
         setContentView(R.layout.activity_choise_pet)
 
         choise_1.setOnClickListener { this.dec=1; this.border=50; this.png="here1"}
-        choise_1.setOnClickListener { this.dec=2; this.border=100; this.png="here2"}
-        choise_1.setOnClickListener { this.dec=3; this.border=200; this.png="here3"}
-        choise_1.setOnClickListener { this.dec=4; this.border=300; this.png="here4"}
+        choise_2.setOnClickListener { this.dec=2; this.border=100; this.png="here2"}
+        choise_3.setOnClickListener { this.dec=3; this.border=200; this.png="here3"}
+        choise_4.setOnClickListener { this.dec=4; this.border=300; this.png="here4"}
+        choise_5.setOnClickListener { this.dec=4; this.border=300; this.png="here4"}
+        choise_6.setOnClickListener { this.dec=4; this.border=300; this.png="here4"}
 
 
         choise_decide_button.setOnClickListener {
