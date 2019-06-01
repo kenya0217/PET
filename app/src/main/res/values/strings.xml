@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">PET</string>
+    <string-array name="list">
+        <item>振る</item>
+        <item>散歩</item>
+        <item>tintin</item>
+    </string-array>
 </resources>
