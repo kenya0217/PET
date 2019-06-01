@@ -13,24 +13,32 @@ import kotlin.arrayOf as arrayOf
 public class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        var i:Int = 0;
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        var pet = Pet(
-            intent.getStringExtra(“png”),
-        intent.getIntExtra(“dec”,222),
-        intent.getIntExtra(“border”,222),
-        intent.getStringExtra(“name”))
-        val button = findViewById(R.id.button) as Button
+        //var pet = Pet(
+            //intent.getStringExtra("png"),
+            //intent.getIntExtra("dec",222),
+            //intent.getIntExtra("border",222)
+            // ,intent.getStringExtra("name")
+            //)
+        val button = findViewById(R.id.constraintLayout) as Button
 
         button.setOnClickListener {
-
+            if(i ==0) {
+                ListView.setVisibility(View.VISIBLE);
+                i++
+            }else{
+                ListView.setVisibility(View.INVISIBLE);
+                i=0
+            }
         }
-        val items = arrayOf("tintin","onon","manman","aa","bb","cc")
+        val items = arrayOf("振る","撫でる","散歩")
         val adapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, items)
         ListView.adapter = adapter
-        ListView.setOnItemClickListener { adapterView, view, position, id ->
-
-        }
+//        ListView.setOnItemClickListener { adapterView, view, position, id ->
+//
+//        }
         ListView.setVisibility(View.GONE);
     }
 
