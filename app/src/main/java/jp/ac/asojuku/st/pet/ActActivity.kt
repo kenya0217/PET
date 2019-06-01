@@ -1,33 +1,40 @@
 package jp.ac.asojuku.st.pet
 
+import android.hardware.Sensor
 import android.hardware.SensorEvent
 import android.hardware.SensorEventListener
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 
 
 class ActActivity : AppCompatActivity(), SensorEventListener {
+    override fun onAccuracyChanged(p0: Sensor?, p1: Int) {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
+
+    override fun onSensorChanged(p0: SensorEvent?) {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_act)
+        val flickView = window.decorView // Activity画面
+        val adjustX = 150.0f
+        val adjustY = 150.0f
 
+        object : FlickCheck(flickView, adjustX, adjustY) {
+
+            override fun getFlick(flickData: Int) {
+                ////////
+                //撫でた時の処理
+                ////////
+            }
+        }
 
     }
-    override fun onSensorChanged(event: SensorEvent){
 
-        var strb:StringBuffer = StringBuffer()
-        strb.append(event.values[0])
-        strb.append(event.values[1])
-        strb.append(event.values[2])
-
-    }
-
-    var actList:ArrayList<Act> = ArrayList()
-
-    fun add_act(water:Int,love:Int,name:String,png:String){
-        var act = Act(water,love,name,png)
-        actList.add(act)
-    }
 
 }
