@@ -16,4 +16,12 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintVertical_bias="0.471"/>
+    <Button
+            android:text="もどる"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Mainback"
+            app:layout_constraintTop_toBottomOf="@+id/image"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:visibility="invisible"/>
 </android.support.constraint.ConstraintLayout>
