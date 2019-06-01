@@ -5,4 +5,5 @@
         <item>散歩</item>
         <item>tintin</item>
     </string-array>
+    <string name="shipment"/>
 </resources>
